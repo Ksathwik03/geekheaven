@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" >
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <title >Covid-19</title>
+<link href="https://fonts.googleapis.com/css2?family=Calligraffitti&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="start">
+        <img src="./airplane.png" id= "air_img">
+        <h1 class="start_main">Landing... Hang tight</h1>
+        <img src="./cloud.png" id="cloud_1">
+        <img src="./cloud.png" id="cloud_2">
+        <img src="./cloud.png" id="cloud_3">
+    </div>
+    <div class="main">
+        <div class="navbar">    
+        <ul>
+            <li class="bot">Covid-19 Vaccination</li>
+            <li><i id="bar" class="fa fa-bars" aria-hidden="true" onclick="my1()"></i></li>
+            <div class="he">
+              <li><a href="#home" >Home</a></li>
+              <li><a href="#importance">Importance</a></li>
+              <li><a href="#statistics">Statistics</a></li> 
+              <li><a href="#register">Register</a></li> 
+            </div>
+        </ul>
+        </div>
+        <img src = "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg" class="main_img" id="home">
+        <h1 class="heading">Covid -19 <br> Vaccination Dashboard</h1>
+        <div >
+            <h1 id="importance">Importance of covid -19 vaccine</h1>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqFrnWibQ7r6cVSBaKCI_qEYPFkt6bjOXnYg&usqp=CAU" class="imp_img">
+            <p>The COVID-19 vaccines are a new type known as mRNA (messenger RNA) vaccines. These mRNA vaccines give instructions to our cells to make a harmless piece of what is called the spike protein. The spike protein is found on the surface of the virus. COVID-19 mRNA never enters the nucleus of the cell, which is where DNA (genetic material) is stored. Once the instructions are inside your muscle cells, the cells use them to make the protein piece, then the cells break down the instructions and get rid of them.
+                Next, the cell places the protein piece on its surface. The immune system spots the protein and begins building an immune response and making antibodies to fight the infection. At the end of this process, our bodies have learned how to protect against future infection.
+            </p>
+            <p>COVID-19 can bring upon serious, life-threatening complications, as hospitals like UAB are seeing in hundreds of patients daily who need hospitalized care. Even though it affects certain groups less seriously than others based on age, health and other factors, it is still not possible to predict how COVID-19 will affect any individual.Getting COVID-19 may offer some natural protection, known as immunity. But experts do not know how long that immunity lasts, and the risk of severe illness and death from COVID-19 far outweighs any benefits of natural immunity. Getting vaccinated creates an antibody response, so that you are protected without having to experience the illness. Both natural immunity and immunity produced by a vaccine are important aspects of COVID-19 that experts are investigating. Health care officials and agencies plan to keep the public informed about new developments</p>
+            <img src="https://www.prepguidance.com/wp-content/uploads/2020/08/covid-19-vaccine-corona-5358852.jpg" class="imp_img1">
+            <p>Individuals who have been vaccinated are less inclined to be severely infected than those who have not received vaccines. However, the degree of protection may vary between the VOC and the non-VOC. This is because certain VOCs have the capacity to evade the host’s immune systemOne of the strategies to reckon vaccine efficacy against VOC is by comparing the efficacies of vaccines between locales with different circulating variants, e.g., the Pfizer BNT162b2 vaccine was found to be highly effective against B.1.1.7 variant in Israel. Another method is the use of case-control studies. In this method, the vaccinated individuals are compared to unvaccinated individuals with similar demographics and statistical tools are used to evaluate the VOC infection in a vaccinated population</p>
+
+        </div>
+    
+    <div id = "statistics">
+    <h1>Vacinated Status in States</h1>
+    <table id="states"></table>
+    <br>
+    <div class="graph">
+    <canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+    <canvas id="myChart1" style= "width: 200px; height: 200px; max-width:600px; "></canvas> 
+    </div>
+    </div>
+    <div id="register">
+      <h1>Register your vaccine today</h1>
+        <p>You can register your vaccine for free at <a href="https://www.cowin.gov.in/" style="color: aqua;">https://www.cowin.gov.in/</a>. </p>
+    </div>
+    <hr>
+    <footer>
+        <div class="bor1">
+            <div class="ul1">
+            <a href="https://www.instagram.com/ksathwik03/"> <i class="fa fa-instagram fa-15x" aria-hidden="true"></i></a>
+              <a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i> </a>
+              <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
+              <a href="https://github.com/Ksathwik03" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a>
+              <a href="Ksathwik03@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>        
+            </div>
+            </div>
+            <p class="foot">Copyright&copy;Ksathwik03</p>
+    </footer>
+   </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>
